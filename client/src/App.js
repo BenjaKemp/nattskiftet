@@ -21,57 +21,17 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="section">
-          <img src={"/xr-logo.png"} className="logo" alt="logo" />
+          <h1 className="giant-header">Nattskiftet</h1>
         </header>
-        {/* <Notifications /> */}
+        <img src={"/moon.png"} className="logo" alt="logo" />
 
-        <div className="section">
-          <br></br>
-          <h1>DEMANDS</h1>
-          <br></br>
-          <h2>How it works</h2>
-          <p>
-            Since nobody has time for long and tedious discussions, the
-            collaborative demand system instead works like this (a merry mix of
-            reddit, github and wikipedia):
-          </p>
-          <br></br>
-          <p>
-            - Anyone can suggest a demand, these end up in the bottom
-            'suggested' section
-          </p>
-          <p>
-            - If 1000 people agree with your demand, it moves to the 'Discussed'
-            section
-          </p>
-          <p>
-            - Once in 'Discussed' the options for adding suggested improvements
-            to your demand are open
-          </p>
-          <p>
-            - If 20 people agree with a suggested change then that change is
-            accepted to the demand description
-          </p>
-          <p>
-            - Once the demand definition is completed and has 10,000 upvotes it
-            gets sent as a petition to the representative who can make the next
-            move, and the demand moves to the 'active' section.
-          </p>
-          <p>
-            - In 'Active' we can see where the demand is at, and what you can do
-            to push it forward.
-          </p>
-          <p>
-            - If a demand gets stuck, you'll find here how and where you can
-            rebel.
-          </p>
-        </div>
-
-        <Active />
-
-        {/* <Discussed />
-
-        <Suggested /> */}
+        {/* <div className="color-block"></div> */}
+        <p className="nav-paragraph">
+          <span className="trigger-link">Vi</span> uppdaterar{" "}
+          <span className="trigger-link">bostäder</span> från att vara{" "}
+          <span className="trigger-link">parasiterande</span> till att bli{" "}
+          <span className="trigger-link">producerande</span>.
+        </p>
       </div>
     );
   }
